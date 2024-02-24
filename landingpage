@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Landing page</title>
+	<link rel="stylesheet" type="text/css" href="landingstylesheet.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+	<header>
+        <h1>Jspiders</h1>
+		<div>
+			<a href="#" class="active">Home</a>
+			<a href="#">About</a>
+	          <a href="#"> Contact</a>
+			<a href="#"> service</a>
+			<a href="#">Register</a>
+			<a href="#" i class='bx bx-search-alt-2'></i></a>
+			<a href="#" i class='bx bx-menu' ></i></a>
+		</div>
+    </header>
+    <div class="container">
+    	<div class="container-section">
+    	  <h2>Jspides Training Centre</h2>
+    	  <p>JSpiders is the world’s ace software course training organization with an aim to bridge the gap between the demands of the industry and the curriculum of educational institutions.With centers across the Globe, the institute is a platform where young minds are given the opportunity to build successful careers.</p>
+    	  <button class="button">More Details</button>
+         <div   id="about">
+   	       <h3> Register</h3>
+   	       <div class="login">
+        	  <input type="text" placeholder="Enter Name">
+        	</div>
+        	<div class="login" >
+        	  <input type="text" placeholder="Enter Email">
+			</div>
+			<div class="login">
+				<input type="" placeholder="Phone number">
+			</div>
+			<div class="login">
+				 <button class="button">Login</button>
+			</div>
+			<div class="home-sci">
+				<a href="#"><i class='bx bxl-instagram' ></i></a>
+				<a href="#"><i class='bx bxl-whatsapp' ></i></a>
+				<a href="#"><i class='bx bxl-linkedin' ></i></a>
+				<a href="#"><i class='bx bxl-gmail' ></i></a>
+			 </div>
+          </div>
+         </div>
+    <footer>
+   	      <h3>Copy Rights@2024</h3>
+   	      <small>Maintained by jspiders team</small>
+   	    <h4 i class='bx bxs-phone' ></i> 100-234-243</h4>
+   	</footer>
+</body>
+</html>
